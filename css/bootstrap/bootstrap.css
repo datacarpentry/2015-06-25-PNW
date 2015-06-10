@@ -75,6 +75,11 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
+.col-md-4, .col-md-6 {
+  width: 33.3%;
+  float: left;
+}
+
 #map_canvas img,
 .google-maps img {
   max-width: none;
