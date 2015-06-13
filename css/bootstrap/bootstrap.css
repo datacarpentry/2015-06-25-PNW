@@ -76,8 +76,9 @@ img {
 }
 
 .col-md-4 {
-  width: 33.3%;
+  width: 31%;
   float: left;
+  margin-right: 10px;
 }
 
 .col-md-6 {
