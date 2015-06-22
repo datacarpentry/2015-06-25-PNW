@@ -171,10 +171,10 @@ The structure and objectives of the curriculum as well as the teaching style are
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td><a href="http://programminghistorian.org/lessons/cleaning-data-with-openrefine">Cleaning Excel Data &amp; OpenRefine</a></td> </tr>
+      <tr> <td>09:00</td>  <td><a href="http://datacarpentry.github.io/2015-06-25-PNW/spreadsheet-dh/">Cleaning Excel Data</a> &amp; <a href="http://programminghistorian.org/lessons/cleaning-data-with-openrefine">OpenRefine</a></td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="http://datacarpentry.github.io/2015-06-25-PNW/shell-intro/"</a>Automating tasks with the Unix shell</a></td> </tr>
+      <tr> <td>13:00</td>  <td><a href="http://datacarpentry.github.io/2015-06-25-PNW/shell-intro/">Automating tasks with the Unix shell</a></td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -285,6 +285,17 @@ The structure and objectives of the curriculum as well as the teaching style are
       <li><a href="http://software-carpentry.org/v5/novice/ref/02-git.html">Reference...</a></li>
     </ul>
   </div>
+  <div class="col-md-6">
+    <h3>Data Management in Spreadsheets</h3>
+    <ul>
+<li>Formatting data &amp; problems</li>
+<li>Dates as data</li>
+<li>Quality control</li>
+<li>Exporting data</li>
+<li>Data format caveats</li>
+    </ul>
+  </div>
+
 </div>
 
 <hr/>
@@ -360,6 +371,81 @@ tablets and Chromebooks are not adequate.
     </div>
   </div>
 </div> <!-- End of 'shell' section. -->
+<div id="spreadsheet"> <!-- Start of 'Spreadsheet' section. Remove the third paragraph if -->
+  <h3>Spreadsheets</h3>
+
+  <p>
+  <ol>
+<li><b>A spreadsheet program</b>
+<br>For this workshop you will need a spreadsheet program. Many people already have 
+Microsoft Excel installed, and if you do, you're set! 
+<br>
+If you need a spreadsheet 
+program, there are a few other options, like OpenOffice and LibreOffice. Install 
+instructions for LibreOffice, which is free and open source, are here.
+       <ul>
+          <li><b>Download the Installer</b>
+        <br>Install LibreOffice by going to the <a href=https://www.libreoffice.org/download/libreoffice-fresh/>installation page</a>. The version for Windows 
+should automatically be selected. Click <b>Download Version 4.4.2</b>. You 
+will go to a page that asks about a donation, but you don't need to make one.
+Your download should begin automatically. 
+          <li><b>Install LibreOffice</b>
+            <br>Once the installer is downloaded, double click on it and it should install.
+<li>To use LibreOffice, double click on the icon and it will open.
+</ul>
+
+<p>
+
+<li><b>Google Refine</b>
+<p>
+Google Refine (previously OpenRefine) is a tool for data cleaning 
+that runs through a web browser, and any browser -
+Safari, Firefox, Chrome, Explorer - should work fine. 
+You will need to download Google Refine and install it, 
+and when you open it, it will run through the browser, but you don't need
+an internet connection, and the data will all be stored on your computer.
+</p>
+
+<div class="col-md-4">
+ <h4 id="ss-win">Windows</h4>
+ 
+<ul>
+<li>Go to the OpenRefine <a href="http://openrefine.org/download.html">download 
+page</a> 
+<li>Click on <i>Windows kit</i> to download the install file
+<li>To use it, unzip, and double-click on google-refine.exe (if you're having issues
+with google-refine.exe try refine.bat instead)
+<li>Google Refine will then open in your web browser.
+</ul>
+</div>
+  </p>
+</div>
+
+<div class="col-md-4">
+ <h4 id="ss-mac">Mac</h4>
+<ul>
+<li>Go to the OpenRefine <a href="http://openrefine.org/download.html">download 
+page</a> 
+<li>Click on <i>Mac kit</i> to download the install file
+<li>Open the downloaded .dmg file
+<li>Drag the icon in to the Applications folder
+<li>Double click on the icon and Google Refine will then open in your web browser.
+</ul>
+</div>
+
+<div class="col-md-4">
+ <h4 id="ss-linux">Linux</h4>
+<ul>
+<li>Go to the OpenRefine <a href="http://openrefine.org/download.html">download 
+page</a> 
+<li>Click on <i>Linux kit</i> to download the install file
+<li>Open the downloaded .dmg file
+<li>Drag the icon in to the Applications folder
+<li>Double click on the icon and Google Refine will then open in your web browser.
+</ul>
+</div>
+
+
 
 <div id='git'> <!-- Start of 'Git' section. GitHub browser compatability
            is given at https://help.github.com/articles/supported-browsers/-->
@@ -588,7 +674,6 @@ nltk.download('book')</pre>
   </div>
 </div> <!-- End of 'Python' section. -->
 
- 
 </p>
 
 
